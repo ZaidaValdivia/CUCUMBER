@@ -1,0 +1,285 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-25T23:29:46.033Z",
+        "line": 4,
+        "name": "Customer logs in to XYZ Bank Page",
+        "description": "",
+        "id": "customer-administration;customer-logs-in-to-xyz-bank-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3130575300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "XYZ Bank Page was loaded for the customer",
+            "match": {
+              "location": "StepDefinition.StepDefinition.xyz_bank_page_was_loaded_for_the_customer()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3729540900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Customer logs in with Harry Potter",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_logs_in_with_harry_potter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3036792300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer will be in his account",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_will_be_in_his_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@customerLogin"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-25T23:29:55.980Z",
+        "line": 10,
+        "name": "customer makes a Deposit",
+        "description": "",
+        "id": "customer-administration;customer-makes-a-deposit",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3066336100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "customer was logged in XYZ bank page",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_was_logged_in_xyz_bank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 490926600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "customer enters the amount to be deposit",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_enters_the_amount_to_be_deposit()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27306800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "A confirmation message will be displayed to the customer",
+            "match": {
+              "location": "StepDefinition.StepDefinition.a_confirmation_message_will_be_displayed_to_the_customer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@customerDeposit"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-25T23:29:59.574Z",
+        "line": 16,
+        "name": "customer makes a Withdrawn",
+        "description": "",
+        "id": "customer-administration;customer-makes-a-withdrawn",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3181114300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "customer was logged in XYZ bank page",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_was_logged_in_xyz_bank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4240830600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "customer enters the amount to be withdraw",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_enters_the_amount_to_be_withdraw()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23999700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "A confirmation message of withdrawn will be displayed to the customer",
+            "match": {
+              "location": "StepDefinition.StepDefinition.a_confirmation_message_of_withdrawn_will_be_displayed_to_the_customer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@customerWithdraw"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-25T23:30:07.028Z",
+        "line": 22,
+        "name": "Customer reviews his transactions",
+        "description": "",
+        "id": "customer-administration;customer-reviews-his-transactions",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3050799900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "customer was logged in XYZ bank page",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_was_logged_in_xyz_bank_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65183300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "customer clicks on Transactions button",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_clicks_on_transactions_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 288398600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "recent transactions will be displayed to the customer",
+            "match": {
+              "location": "StepDefinition.StepDefinition.recent_transactions_will_be_displayed_to_the_customer()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@customerTransactions"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-25T23:30:10.435Z",
+        "line": 28,
+        "name": "Customer logs out from his account",
+        "description": "",
+        "id": "customer-administration;customer-logs-out-from-his-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15637700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "customer was reviewing his transactions",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_was_reviewing_his_transactions()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114931200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "customer clicks on Logout Button",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_clicks_on_logout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30139500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "customer will be out off his account",
+            "match": {
+              "location": "StepDefinition.StepDefinition.customer_will_be_out_off_his_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131857500,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "the browser will close",
+            "match": {
+              "location": "StepDefinition.StepDefinition.the_browser_will_close()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@customerLogout"
+          }
+        ]
+      }
+    ],
+    "name": "Customer administration",
+    "description": "",
+    "id": "customer-administration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Bank.feature",
+    "tags": []
+  }
+]
